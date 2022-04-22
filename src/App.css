@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Square+Peg&family=Square Peg&display=swap');.App{
+  width: 100vw; 
+  height: 100vw;
+  background-color: antiquewhite;
+}
+
+.NavBar{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 70px;
+  font-family: 'Square Peg';
+  font-weight: bolder;
+  background-color: navajowhite;
+  z-index: 1;
+  /* color: gray; */
+  border-bottom: 15px;
+  border-color: gray;
+}
+
+.Input{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.InputBox{
+  font-family: 'Square Peg';
+  font-size: 30px;
+  padding: 10px 10px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.InputButton{
+  font-weight: bolder;
+  position: absolute;
+  font-family: 'Square Peg';
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 15px;
+  right: 10px;
+  background-color: burlywood;
+  transition: 0.2s all;
+}
+
+.InputButton:hover{
+  background-color: rgba(222, 184, 135, 0.459);
+}
